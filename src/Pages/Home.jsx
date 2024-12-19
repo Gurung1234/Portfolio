@@ -4,7 +4,6 @@ import Body from "../Components/Body"
 import Contact from "../Components/Contact"
 import Gallery from "../Components/Gallery"
 import Projects from "../Components/Projects"
-import Services from "../Components/Services"
 import Skills from "../Components/skills"
 
 
@@ -18,8 +17,7 @@ const Home = () => {
    <Projects/>
    
     {/* <About/> */}
-    <Skills/>
-    
+ <Skills/> 
     <Gallery/>
     <BlogNavigator/>
     <Contact/>
