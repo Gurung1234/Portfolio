@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 
 // Import images
-import i1 from '../assets/Gallery/1.jpg';
-import i2 from '../assets/Gallery/2.jpeg';
+import i1 from '../assets/Gallery/1.JPG';
+import i2 from '../assets/Gallery/2.JPEG';
 import i3 from '../assets/Gallery/3.jpg';
 import i4 from '../assets/Gallery/4.jpg';
 import i5 from '../assets/Gallery/5.jpeg';
 import i6 from '../assets/Gallery/6.jpg';
-import i7 from '../assets/Gallery/7.jpg';
-import i8 from '../assets/Gallery/8.jpg';
 import i9 from '../assets/Gallery/9.jpeg';
 import i10 from '../assets/Gallery/10.jpg';
 import i11 from '../assets/Gallery/11.jpg';
