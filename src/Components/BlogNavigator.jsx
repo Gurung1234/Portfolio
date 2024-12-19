@@ -20,14 +20,14 @@ const BlogNavigator = () => {
 
     
     
-    <div className=' text-light-gray lg:px-32 md:px-20 px-2 pt-3 pb-3'>
+    <div className=' text-light-gray lg:px-32 md:px-20 px-2 bg-[#323946] pb-8 md:pb-13 lg:pb-15 pt-8 md:pt-13 lg:pt-15'>
               {/* <h1 className="font-bold text-white text-2xl text-center py-10 font-mont">Blog</h1> */}
-              <h1 className='text-xl font-semibold mb-2 text-white text-center font-mont'>
+              <h1 className=' font-semibold mb-2 text-white text-3xl text-center font-serif'>
   Welcome to My Blog!
 </h1>
 
 
-    <div className="flex flex-col items-center justify-center h-1500 px-4 bg-cover bg-center bg-no-repeat text-white"
+    <div className="flex flex-col items-center justify-center h-1500 px-4 bg-cover bg-center bg-no-repeat text-white pb-8 md:pb-13 lg:pb-15 pt-8 md:pt-13 lg:pt-15"
       style={{
         backgroundImage: `url(${backgroundGif})`,
       }}
@@ -57,7 +57,7 @@ const BlogNavigator = () => {
                
             </div>
             </div>
-            <div className='text-white px-2 font-serif pb-9' data-aos="zoom-in" data-aos-duration="1000">
+            <div className='text-white px-2 font-serif pb-9 text-justify' data-aos="zoom-in" data-aos-duration="1000">
                 {/* <h1 className='text-xl font-semibold mb-2 text-white text-center md:text-start font-mont'>Welcome to My Blog!</h1> */}
                 <p>Welcome to my journey! Through this platform, I’ll be sharing my travel stories, technological explorations, and the priceless 
                     lessons I’ve learned along the way. My mission is to document these moments and offer you a window into the wonders of our world.
@@ -81,7 +81,7 @@ const BlogNavigator = () => {
 
 
         </div>
-        <div className='text-white justify-center text-center  hover:underline transition duration-300 ease-in-out' data-aos="Zoom-in" data-aos-duration="1000">
+        <div className='text-white justify-center text-center  hover:underline transition duration-300 ease-in-out hover:text-[#00ffff]' data-aos="Zoom-in" data-aos-duration="1000">
                 <NavLink to='/blog'>Go to the Blog...</NavLink>
                 </div>
 

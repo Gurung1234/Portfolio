@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="px-4 md:px-20 lg:px-32 py-10 md:py-20 bg-purple-900 text-white"
+      className="px-4 md:px-20 lg:px-32 py-10 md:py-20 bg-[#323946] text-white font-serif"
     >
       <div className="text-center mb-12">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold pb-4">
@@ -38,7 +38,7 @@ const Contact = () => {
         </h1>
         
 
-        <p className="text-white font-serif font-bold text-1xl my-6">Send me a message. and I'II get back to you as soon as possible 
+        <p className="text-white font-serif font-bold text-1xl my-6">Send me a message.I'II get back to you as soon as possible 
         </p>
 
 
@@ -143,7 +143,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-black text-white px-6 py-3 rounded-md font-bold border-2 border-[#00FFFF] hover:scale-105 hover:text-black hover:bg-[#00FFFF] duration-200 ease-in-out"
+            className="bg-[#323946] text-white px-6 py-3 rounded-md font-bold border-2 border-[#00FFFF] hover:scale-105 hover:text-[#323946] hover:bg-[#00FFFF] duration-200 ease-in-out"
           >
             Send Message
           </button>

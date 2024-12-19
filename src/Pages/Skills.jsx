@@ -28,8 +28,8 @@ const Skills = () => {
   // const showLess = () => setVisibleCount(4);
 
   return (
-    <div className='bg-[#5b6660] text-light-gray px-2 md:px-20 lg:px-32 pt-10 md:pt-14 lg:pt-20'>
-      <h1 className='font-bold text-white text-2xl text-center py-10'>SKILLS</h1>
+    <div className='bg-[#323946] text-light-gray px-2 md:px-20 lg:px-32 pt-10 md:pt-14 lg:pt-20'>
+      <h1 className='font-bold text-white text-3xl text-center font-serif py-10'>SKILLS</h1>
       {/* <h2 className='font-bold text-white text-2xl text-center py-8'>I have following Skills</h2> */}
 
 {/*       

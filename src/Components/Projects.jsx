@@ -1,152 +1,65 @@
 import React, { useState } from 'react'
+import job from '../assets/Project/job.jpg'
+import feedback from '../assets/Project/feedback system.jpg'
+import port from '../assets/Project/portfolio.jpg'
 import prabidhi from '../assets/image.png'
-import hariyali from '../assets/hariyali.png'
-import vivo from '../assets/vivo.png'
-import trail from '../assets/trail.png'
-import subhfront from '../assets/subhfront.png'
-import subhdashboard from '../assets/subhdash.png'
-import hashcnet from '../assets/hashnet.jpg'
-import quote from '../assets/quote.jpg'
-import intersect from '../assets/intersect.jpg'
+import energy from '../assets/Project/energy.jpg'
+
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
 
   const data = [
     {
       id: 1,
-      name: "Prabidhi Enterprise Pvt. Ltd",
-      languages: ["React.js", "Tailwind CSS"],
-      image: prabidhi,
-      description: "Prabidhi is a company website that displays services, contacts, and more.",
-      sourcecode: "https://github.com/binayakedem/Prabidhi-Enterprise",
-      preview: "https://prabidhi-virid.vercel.app/"
+      name: "Job Recommendation System",
+      languages: ["React.js", "PHP"],
+      image: job,
+      description: "A Job Recommendation System is a type of system designed to assist job seekers in finding suitable job opportunities and to help recruiters connect with ideal candidate.",
+      sourcecode: "",
+      preview: "null"
     },
+   
     {
       id: 2,
-      name: "Hash Cnet Pvt. Ltd.",
-      languages: ["React.js", "Tailwind CSS"],
-      image: hashcnet,
-      description: "This system displays information about Hash Cnet Pvt. Ltd.",
-      sourcecode: "https://github.com/binayakedem/",
-      preview: "https://hashcnet.com.np/"
+      name: "Feedback System",
+      languages: ["React.js", "Tailwind CSS","Java"],
+      image: feedback,
+      description: "A Feedback System is a structured mechanism designed to collect, analyze, and act upon feedback provided by users.",
+      sourcecode: "",
+      preview: ""
     },
-    {
-      id: 3,
-      name: "Vivo Education Pvt. Ltd",
-      languages: ["React.js", "Tailwind CSS"],
-      image: vivo,
-      description: "Vivo is a website showing information about consultancy services.",
-      sourcecode: "https://github.com/binayakedem/trailmaker-practice-project",
-      preview: "https://trailmaker-practice-project1.vercel.app/"
-    },
-    {
-      id: 4,
-      name: "Trail Consultancy",
-      languages: ["React.js", "Tailwind CSS"],
-      image: trail,
-      description: "Trail Consultancy is a website showing consultancy service information.",
-      sourcecode: "https://github.com/binayakedem/trail-consultancy",
-      preview: "https://trailconsultancy.vercel.app/"
-    },
-    {
-      id: 5,
-      name: "Subh Bihani Digital Media Frontend",
-      languages: ["React.js", "Tailwind CSS", "MongoDB", "Node.js", "Express.js"],
-      image: subhfront,
-      description: "This website shows limited information due to the backend not running.",
-      sourcecode: "https://github.com/binayakedem/subh-bihani-frontend",
-      preview: "https://subh-bihani-frontend.vercel.app/"
-    },
-    {
-      id: 6,
-      name: "Subh Bihani Digital Media Dashboard",
-      languages: ["React.js", "Tailwind CSS", "MongoDB", "Node.js", "Express.js"],
-      image: subhdashboard,
-      description: "This dashboard shows limited information due to the backend not running.",
-      sourcecode: "https://github.com/binayakedem/subh-bihani-dashboard",
-      preview: "https://subh-bihani-dashboard.vercel.app/"
-    },
-    {
-      id: 7,
-      name: "Intersect Pvt.Ltd.",
-      languages: ["React.js", "Tailwind CSS"],
-      image: intersect,
-      description: "This system displays information about Intersect Pvt.Ltd.",
-      sourcecode: "https://github.com/binayakedem/intersect",
-      preview: "https://intersect1.vercel.app/"
-    },
-    {
-      id: 8,
-      name: "Hariyali Abhiyan",
-      languages: ["React.js", "Tailwind CSS"],
-      image: hariyali,
-      description: "This system displays information about Hariyali Abhiyan.",
-      sourcecode: "https://github.com/binayakedem/hariyana",
-      preview: "https://hariyana.vercel.app/"
-    },
-    {
-      id: 8,
-      name: "Quote Generator App",
-      languages: ["JavaScript", "HTML", "CSS"],
-      image: quote,
-      description: "This system displays the quote generator app.",
-      sourcecode: "https://github.com/binayakedem/quote",
-      preview: "https://quote-xi.vercel.app/"
-    },
-    {
-      id: 9,
-      name: "Pre-order System",
-      languages: ["React.js", "CSS", "Bootstrap", "Firebase"],
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6eUe2B-rM_EFa4piJFA0hYXuQK2M_WeoSg&s",
-      description: "Firebase is used to authenticate and store information.",
-      sourcecode: "https://github.com/binayakedem/preorder/",
-      preview: "null"
-    },
-    {
-      id: 10,
-      name: "World News",
-      languages: ["React.js", "CSS", "Firebase"],
-      image: "https://thumbs.dreamstime.com/b/world-news-text-silver-d-uppercase-letters-placed-next-to-globe-showing-most-north-south-america-background-symbols-99681085.jpg",
-      description: "This system fetches and displays worldwide news.",
-      sourcecode: "https://github.com/binayakedem/world-news",
-      preview: "null"
-    },
-    {
-      id: 11,
-      name: "Sustainable Energy Production Prediction",
-      languages: ["React.js", "Bootstrap", "CSS", "Python"],
-      image: "https://www.eia.gov/todayinenergy/images/2021.02.08/main.svg",
-      description: "This system predicts sustainable energy production up to 2050.",
-      sourcecode: "https://github.com/binayakedem/SustainableEnergyProductionPrediction",
-      preview: "null"
-    },
-    {
-      id: 12,
-      name: "To-Do Project",
-      languages: ["Python", "CSS", "HTML"],
-      image: "https://www.smartsheet.com/sites/default/files/2022-09/IC-Project-Task-Checklist-Template.png",
-      description: "This system performs CRUD operations for a daily to-do list.",
-      sourcecode: "https://github.com/binayakedem/python-todo-project",
-      preview: "null"
-    },
-    {
-      id: 13,
-      name: "Restaurant Management System",
-      languages: ["Python", "Django with Rest Framework", "React.js"],
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXSfeT-5B6ENiwvlHXuG-DXLyK4raUCtCNsqYetGMqMCyvdQxlIEAh-aSwa_W69hzjdq0&usqp=CAU",
-      description: "Admin, Normal customer, pre-order customer, and Recipient pages.",
-      sourcecode: "https://github.com/binayakedem/frontend-restaurant",
-      preview: "null"
-    },
-    {
-      id: 14,
-      name: "Basics of Python",
-      languages: ["Python"],
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4L3bn1GkJ2Nm6ikVwF2dmqJZCmL8rAjVbyCTdeWKelvCok51IZQ3-l-zi6XlXvLmIXkU&usqp=CAU",
-      description: "This project covers all the basics of Python.",
-      sourcecode: "https://github.com/binayakedem/python-basic",
-      preview: "null"
-    }
+
+
+  {
+    id: 3,
+    name: "Portfolio.",
+    languages: ["React.js", "Tailwind CSS"],
+    image: port,
+    description: "This system displays information about person.",
+    sourcecode: "https://github.com/Gurung1234/Portfolio",
+    preview: "https://www.roshangurung99.com.np"
+  },
+{
+  id: 4,
+  name: "Prabidhi Enterprise Pvt. Ltd",
+  languages: ["React.js", "Tailwind CSS"],
+  image: prabidhi,
+  description: "Prabidhi is a company website that displays services, contacts, and more.",
+  sourcecode: "",
+  preview: "https://prabidhi-virid.vercel.app/"
+},
+
+{
+id: 5,
+name: "Energy Prediction System",
+languages: ["React.js", "HTML,CSS","Python"],
+image: energy,
+description: "An Energy Prediction System is a technology-driven solution that forecasts future energy consumption, production, or demand.",
+sourcecode: "",
+preview: "null"
+},
+
+
   ];
 
   // Set the limit for initially shown projects
@@ -154,15 +67,15 @@ const Projects = () => {
   const displayedProjects = showMore ? data : data.slice(0, initialLimit);
 
   return (
-    <div className='bg-dark-500 text-light-gray lg:px-32 md:px-20 px-2 bg-yellow-950'>
-<h1 className="bg-white bg-clip-text text-transparent font-bold text-2xl text-center py-10 animate-gradient font-mont" style={{ backgroundSize: '200% 200%' }}>
-  Some Live Projects
+    <div className='bg-dark-500 text-light-gray lg:px-32 md:px-20 px-2 bg-[#323946]'>
+<h1 className="bg-white bg-clip-text text-transparent font-bold text-3xl text-center py-10 animate-gradient font-serif" style={{ backgroundSize: '200% 200%' }}>
+  Projects
 </h1>
 
       <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 p-2 pb-5'>
         {
           displayedProjects.map((d) => (
-            <div data-aos="zoom-in-up" data-aos-duration="1500" key={d.id} className='flex flex-col rounded-xl border-2 border-[#00FFFF] p-4 shadow-lg bg-black '>
+            <div data-aos="zoom-in-up" data-aos-duration="1500" key={d.id} className='flex flex-col rounded-xl border-2 border-[#00FFFF] p-4 shadow-lg bg-[#1f242d] '>
               <div className='flex flex-col gap-4'>
                 <div className='overflow-hidden h-52 md:h-72 lg:h-96'>
                   <a href={d.preview} target='_blank'>
@@ -173,7 +86,7 @@ const Projects = () => {
                   <h1 className='font-semibold text-lg text-white font-mont'>{d.name}</h1>
                   <p className='text-white'> {d.description}</p>
                 </div>
-                <div className='flex flex-row flex-wrap rounded-full'>
+                <div className='flex flex-row flex-wrap rounded-full text-justify font-serif'>
                   {d.languages.map((language, index) => (
                     <span key={index} className="px-3 py-1 border mx-2 border-white text-white rounded-full cursor-pointer text-sm hover:bg-[#00FFFF] hover:text-black">
                       {language}
@@ -181,7 +94,7 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-              <div className='text-center p-2 text-[#2563EB] font-semibold flex flex-row justify-between items-center px-2'>
+              <div className='text-center p-2 text-[#2563EB] font-semibold font-serif flex flex-row justify-between items-center px-2'>
                 <div>
                   {
                     d.preview === "null" ? <p className='text-red-600'>No preview</p> : <a className='text-center underline text-white cursor-pointer hover:text-[#00FFFF]' target='_blank' href={d.preview}>Preview</a>
@@ -195,7 +108,8 @@ const Projects = () => {
       </div>
       <div className="flex justify-center py-6">
         <button 
-          className=" bg-black text-white px-2 py-2 w-32 rounded-md border-2 border-[#00FFFF] hover:text-black hover:bg-[#00FFFF] duration-150 ease-in-out hover:scale-105" 
+          className="px-6 py-2 border-2 border-[#00ffff] text-[#00ffff] font-semibold rounded-lg bg-[#1f242d] 
+                     hover:bg-[#00ffff] hover:text-[#323946] hover:scale-105 transition-transform duration-300" 
           onClick={() => setShowMore(!showMore)}>
           {showMore ? 'Show Less' : 'Show More'}
         </button>

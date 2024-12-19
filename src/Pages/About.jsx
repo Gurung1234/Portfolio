@@ -7,7 +7,8 @@ const About = () => {
   return (
     <>
       {/* Section Wrapper */}
-      <div className="bg-blue-400 text-light-gray lg:px-32 md:px-20 px-2 py-8">
+      <div className="bg-[#323946] text-white font-serif lg:px-32 py-8 g:px-32 md:px-20 px-2 pb-8 md:pb-13 lg:pb-15 pt-8 md:pt-13 lg:pt-15">
+      <h1 className="text-white font-bold text-3xl my-6 mb-4 text-center">ABOUT ME</h1>
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {/* Left Side - Image
@@ -28,9 +29,8 @@ const About = () => {
             {/* About Me Section */}
             <div className>
               {/* <h1 className="text-white font-bold text-3xl mb-4 self-center md:self-start justify-center ">ABOUT ME</h1> */}
-              <h1 className="text-white font-bold text-2xl my-6 mb-4 text-center">LET ME INTRODUCE YOU</h1>
 
-              <p className="text-gray-800 font-serif">
+              <p className="text-white flex flex-col font-serif text-justify">
               Hi there! I’m a passionate for coding, problem-solving, and lifelong learning. I thrive on adapting to 
               new technologies and tools, excelling in both frontend and backend development. Through hands-on projects, I transform theoretical
                concepts into practical solutions. Motivated by curiosity and a drive to innovate, I strive to make a significant impact in the tech
@@ -44,22 +44,22 @@ const About = () => {
             data-aos-duration="1200"
             
             >
-              <p className="text-black font-serif font-semibold text-1xl my-4">Coding aside, here are a few hobbies I’m passionate about:</p>
+              <p className="text-white font-serif font-semibold text-1xl my-4">Coding aside, here are a few hobbies I’m passionate about:</p>
               {/* Education Item 1 */}
               <div className="flex flex-row gap-2 items-center">
                 {/* <FaUniversity color="black" /> */}
-                <p className="text-gray-900">-Exploring new places through travel</p>
+                <p className>-Exploring new places through travel</p>
                 {/* <p className="text-warm-orange font-bold text-lg font-mono">BCA</p> */}
               </div>
               {/* Education Item 2 */}
               <div className="flex flex-row gap-2 items-center">
                 {/* <FaUniversity color="black" /> */}
-                <p className="text-gray-900">-Sharing my experiences through blogging</p>
+                <p className>-Sharing my experiences through blogging</p>
                 {/* <p className="text-warm-orange font-bold text-lg font-mono">+2 </p> */}
               </div>
               {/* Education Item 3 */}
               <div className="flex flex-row gap-2 items-center">
-                <p className="text-gray-900">-Enjoying games of all kinds</p>
+                <p className>-Enjoying games of all kinds</p>
                 {/* <p className="text-warm-orange font-bold text-lg font-mono">SLC</p> */}
               </div>
             </div>

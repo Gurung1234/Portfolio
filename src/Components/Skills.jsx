@@ -28,8 +28,8 @@ const Skills = () => {
   const showLess = () => setVisibleCount(4);
 
   return (
-    <div className='bg-[#5b6660] text-light-gray px-2 md:px-20 lg:px-32 pt-10 md:pt-14 lg:pt-20'>
-      <h1 className='font-bold text-white text-2xl text-center py-10'> SKILLS</h1>
+    <div className='bg-[#323946] text-light-gray px-2 md:px-20 lg:px-32 pt-8 md:pt-13 lg:pt-15 pb-8 md:pb-13 lg:pb-15'>
+      <h1 className='font-bold text-white text-3xl text-center py-10 font-serif '> SKILLS</h1>
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-2'>
         {data.slice(0, visibleCount).map((d) => (
           <div
@@ -51,14 +51,16 @@ const Skills = () => {
         {visibleCount < data.length ? (
           <button
             onClick={showMore}
-            className='bg-black text-white px-6 py-3 rounded-md font-bold border-2 border-[#00FFFF] hover:scale-105 hover:text-black hover:bg-[#00FFFF] duration-200 ease-in-out'
+            className="px-6 py-2 border-2 border-[#00ffff] text-[#00ffff] font-semibold rounded-lg bg-[#1f242d] 
+                     hover:bg-[#00ffff] hover:text-[#323946] hover:scale-105 transition-transform duration-300"
           >
             Show More
           </button>
         ) : (
           <button
             onClick={showLess}
-            className='bg-black text-white px-6 py-3 rounded-md font-bold border-2 border-[#00FFFF] hover:scale-105 hover:text-black hover:bg-[#00FFFF] duration-200 ease-in-out'
+            className="px-6 py-2 border-2 border-[#00ffff] text-[#00ffff] font-semibold rounded-lg bg-[#1f242d] 
+                     hover:bg-[#00ffff] hover:text-[#323946] hover:scale-105 transition-transform duration-300"
           >
             Show Less
           </button>

@@ -22,8 +22,8 @@ const MyBlog = () => {
     setSelectedImage(null);
   };
   return (
-    <div className='bg-dark-50 text-gray-900 lg:px-32 md:px-20 px-2'>
-        <h1 className="text-lg font-bold text-black text-center font-mont">Personal Experience Blog</h1>
+    <div className='bg-[#323946] text-gray-900 lg:px-32 md:px-20 px-2 pt-1 pb-1'>
+        {/* <h1 className="text-lg font-bold text-black text-center font-mont">Personal Experience Blog</h1> */}
        {blogPosts.map((post, index) => (
         <div
           key={index}
@@ -53,11 +53,11 @@ const MyBlog = () => {
      data-aos-easing="linear"
      data-aos-duration="1500">
                 
-                <h1 className="font-semibold text-lg my-2 text-black font-mont">Introduction</h1>
+                <h1 className="font-semibold text-lg my-2 text-black font-mont text-justify">Introduction</h1>
                 <p data-aos="zoom-up" data-aos-duration="1000">{post.main_paragraph}</p>
               </div>
               <div>
-                <h1 className="font-semibold text-lg my-2 text-black font-mont">Background</h1>
+                <h1 className="font-semibold text-lg my-2 text-black font-mont text-justify">Background</h1>
               <p>{post.second_paragraph}</p>
               </div>
               <div className="overflow-hidden h-4/5" data-aos="zoom-in" data-aos-duration="1200">

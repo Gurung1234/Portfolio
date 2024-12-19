@@ -112,11 +112,11 @@ const Gallery = () => {
 
   const openImage = (imgUrl) => setSelectedImage(imgUrl);
   const closeImage = () => setSelectedImage(null);
-  const loadMoreImages = () => setVisibleImages((prev) => prev + 6);
-  const loadLessImages = () => setVisibleImages((prev) => Math.max(prev - 6, 3)); // Ensures minimum of 3 images
+  const loadMoreImages = () => setVisibleImages((prev) => prev + 3);
+  // const loadLessImages = () => setVisibleImages((prev) => Math.max(prev - 6, 3)); // Ensures minimum of 3 images
 
   return (
-    <div className="bg-black text-light-gray lg:px-32 md:px-20 px-2 pb-3">
+    <div className="bg-[#323946] text-white lg:px-32 md:px-20 px-2 pb-3">
       <h1 className="font-bold text-white text-2xl text-center py-10 font-mont">Gallery</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.slice(0, visibleImages).map((image) => (
@@ -139,7 +139,8 @@ const Gallery = () => {
         <button
           onClick={loadMoreImages}
 
-          className="bg-black text-white px-6 py-2 w-32 rounded-md border-2 border-[#00FFFF] hover:text-black hover:bg-[#00FFFF] duration-150 ease-in-out hover:scale-105 pt-2"
+          className="px-6 py-2 border-2 border-[#00ffff] text-[#00ffff] font-semibold rounded-lg bg-[#1f242d] 
+                     hover:bg-[#00ffff] hover:text-[#323946] hover:scale-105 transition-transform duration-300"
         >
           Load More
         </button>

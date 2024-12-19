@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Resume = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../../Roshan Gurung.pdf"; // Ensure correct file path
+    link.href = "../../Hello HI.pdf"; // Ensure correct file path
     link.download = "Roshan-Gurung-CV.pdf";
     document.body.appendChild(link);
     link.click();
@@ -14,7 +14,7 @@ const Resume = () => {
   return (
     <button
       onClick={handleDownload}
-      className="px-6 py-2 bg-[#00ffff] text-gray-900 font-semibold rounded-lg shadow-md 
+      className="px-6 py-2 bg-[#00ffff] text-[#323946] font-semibold rounded-lg shadow-md 
                  hover:bg-[#00e5e5] hover:scale-105 transition-transform duration-300"
     >
       Download CV
@@ -41,7 +41,7 @@ const Body = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen px-4 bg-cover bg-center bg-no-repeat text-white"
+      className="flex flex-col items-center justify-center min-h-screen px-4 bg-cover bg-center bg-no-repeat bg-[#323946] text-white pt-8 md:pt-13 lg:pt-15"
     //   style={{
     //     backgroundImage: "url('../../background.gif')", // Replace with your actual background
     //   }}
@@ -56,17 +56,17 @@ const Body = () => {
       </div>
 
       {/* Main Heading */}
-      <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center leading-tight">
+      <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center font-serif leading-tight">
         Hi, I'm <span className="text-[#00ffff]">Roshan Gurung</span>
       </h1>
 
       {/* Rotating Roles Animation */}
-      <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-200">
+      <h2 className="text-2xl md:text-3xl font-semibold font-serif mb-6 text-gray-200">
         <span className="text-[#00ffff]">{roles[currentRole]}</span>
       </h2>
 
       {/* Description Section */}
-      <p className="max-w-2xl text-center text-lg text-gray-300 leading-relaxed mb-8">
+      <p className="max-w-2xl text-center text-lg text-white font-serif leading-relaxed mb-8">
         I am passionate about building innovative solutions and capturing
         creativity through code, visuals, and design. Let's create something
         amazing together!
@@ -80,8 +80,8 @@ const Body = () => {
         {/* Contact Me Link */}
         <NavLink
           to="/contact"
-          className="px-6 py-2 border-2 border-[#00ffff] text-[#00ffff] font-semibold rounded-lg 
-                     hover:bg-[#00ffff] hover:text-gray-900 hover:scale-105 transition-transform duration-300"
+          className="px-6 py-2 border-2 border-[#00ffff] text-[#00ffff] bg-[#1f242d] font-semibold rounded-lg 
+                     hover:bg-[#00ffff] hover:text-[#323946] hover:scale-105 transition-transform duration-300"
         >
           Contact Me
         </NavLink>

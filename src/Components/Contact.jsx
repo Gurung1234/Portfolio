@@ -30,10 +30,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="px-4 md:px-20 lg:px-32 py-10 md:py-20 bg-purple-900 text-white"
+      className="px-4 md:px-20 lg:px-32 py-10 md:py-20 bg-[#323946] text-white"
     >
       <div className="text-center mb-12">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold pb-4 text-center">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold pb-4 text-center text-white font-serif">
           Get in <span className="">Touch</span>
         </h1>
         {/* /* <p className="text-lg">Feel free to contact me for any project or inquiry.</p>  */}
@@ -45,8 +45,8 @@ const Contact = () => {
       >
         {/* Contact Info */}
         <div className="space-y-6">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold" >Let's Talk</h2>
-          <p className="text-lg">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white font-serif" >Let's Talk</h2>
+          <p className="text-lg text-justify text-white font-serif">
             I’m excited and fully available to take on new projects that align with your
             vision and goals. Whether you have a creative idea that needs expert execution
             or a challenging project that requires detailed attention and skill, I’m here
@@ -56,7 +56,7 @@ const Contact = () => {
             questions, or concepts you’d like to discuss. Contact me anytime, and let’s
             turn your ideas into reality together!
           </p>
-          <div className="space-y-6">
+          <div className="space-y-6 text-white font-serif">
             <div className="flex items-center gap-4">
               <img src={mail_icon} alt="Email" className="w-8 h-8" />
               <p>roosan235@gmail.com</p>
@@ -75,7 +75,7 @@ const Contact = () => {
         {/* Contact Form */}
         <form
           onSubmit={onSubmit}
-          className="border-b-purple-900 p-8 rounded-2xl shadow-lg space-y-6"
+          className="border-b-purple-900 p-8 rounded-2xl shadow-lg space-y-6 text-white font-serif"
         >
           <div>
             <label htmlFor="name" className="block text-lg">
@@ -118,7 +118,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-black text-white px-6 py-3 rounded-md font-bold border-2 border-[#00FFFF] hover:scale-105 hover:text-black hover:bg-[#00FFFF] duration-200 ease-in-out"
+            className="bg-[#323946] text-white px-6 py-3 rounded-md font-bold border-2 border-[#00FFFF] hover:scale-105 hover:text-[#323946] hover:bg-[#00FFFF] duration-200 ease-in-out"
           >
             Send Message
           </button>
