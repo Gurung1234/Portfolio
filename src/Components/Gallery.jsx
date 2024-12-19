@@ -5,16 +5,18 @@ import i1 from '../assets/Gallery/1.JPG';
 import i2 from '../assets/Gallery/2.JPEG';
 import i3 from '../assets/Gallery/3.jpg';
 import i4 from '../assets/Gallery/4.jpg';
-import i5 from '../assets/Gallery/5.jpeg';
-import i6 from '../assets/Gallery/6.jpg';
-import i9 from '../assets/Gallery/9.jpeg';
+import i5 from '../assets/Gallery/5.JPEG';
+import i6 from '../assets/Gallery/6.JPG';
+import i7 from '../assets/Gallery/7.jpg';
+import i8 from '../assets/Gallery/8.jpg';
+import i9 from '../assets/Gallery/9.JPEG';
 import i10 from '../assets/Gallery/10.jpg';
-import i11 from '../assets/Gallery/11.jpg';
-import i12 from '../assets/Gallery/12.jpeg';
+import i11 from '../assets/Gallery/11.JPG';
+import i12 from '../assets/Gallery/12.JPEG';
 import i13 from '../assets/Gallery/13.jpg';
 // import i14 from '../assets/Gallery/14.jpg';
 import i15 from '../assets/Gallery/15.JPG';
-import i16 from '../assets/Gallery/16.jpg';
+import i16 from '../assets/Gallery/16.JPG';
 import i17 from '../assets/Gallery/17.jpg';
 import i18 from '../assets/Gallery/18.jpg';
 import i19 from '../assets/Gallery/19.jpg';
@@ -25,16 +27,16 @@ import i23 from '../assets/Gallery/23.jpg';
 import i24 from '../assets/Gallery/24.jpg';
 import i25 from '../assets/Gallery/25.jpg';
 import i26 from '../assets/Gallery/26.jpg';
-import i27 from '../assets/Gallery/27.jpg';
-import i28 from '../assets/Gallery/28.jpg';
+import i27 from '../assets/Gallery/27.JPG';
+import i28 from '../assets/Gallery/28.JPG';
 import i29 from '../assets/Gallery/29.jpg';
 import i30 from '../assets/Gallery/30.jpg';
 import i31 from '../assets/Gallery/31.jpg';
 import i32 from '../assets/Gallery/32.jpg';
 import i33 from '../assets/Gallery/33.jpg';
-import i34 from '../assets/Gallery/34.jpeg';
+import i34 from '../assets/Gallery/34.JPEG';
 // import i35 from '../assets/Gallery/35.jpg';
-import i36 from '../assets/Gallery/36.jpg';
+import i36 from '../assets/Gallery/36.JPG';
 import i37 from '../assets/Gallery/37.jpg';
 import i38 from '../assets/Gallery/38.jpg';
 import i39 from '../assets/Gallery/39.jpg';
@@ -52,7 +54,7 @@ import i50 from '../assets/Gallery/50.jpg';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [visibleImages, setVisibleImages] = useState(3);
+  const [visibleImages, setVisibleImages] = useState(6);
 
   // Array of images
   const images = [
@@ -111,7 +113,7 @@ const Gallery = () => {
   const openImage = (imgUrl) => setSelectedImage(imgUrl);
   const closeImage = () => setSelectedImage(null);
   const loadMoreImages = () => setVisibleImages((prev) => prev + 6);
-  const loadLessImages = () => setVisibleImages((prev) => Math.max(prev - 6, 3)); // Ensures minimum of 3 images
+  // const loadLessImages = () => setVisibleImages((prev) => Math.max(prev - 6, 3)); // Ensures minimum of 3 images
 
   return (
     <div className="bg-black text-light-gray lg:px-32 md:px-20 px-2 pb-3">

@@ -1,7 +1,7 @@
 import React from 'react';
 import who from '../assets/who am i.jpg';
-import { FaUniversity } from 'react-icons/fa';
-import { TbWheatOff } from 'react-icons/tb';
+// import { FaUniversity } from 'react-icons/fa';
+// import { TbWheatOff } from 'react-icons/tb';
 
 const About = () => {
   return (

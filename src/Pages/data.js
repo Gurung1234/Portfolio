@@ -1,10 +1,10 @@
  import p1 from '../assets/Blogs/pathivara1.jpg'
- import p2 from '../assets/Blogs/pathivar2.jpg'
+ import p2 from '../assets/Blogs/Pathivar2.jpg'
  import m1 from '../assets/Blogs/Mustang1.jpg'
- import m2 from '../assets/Blogs/Mustang2.jpg'
+ import m2 from '../assets/Blogs/mustang2.jpg'
  import G1 from '../assets/Blogs/Ghandruk1.jpg'
  import G2 from '../assets/Blogs/Ghandruk2.jpg'
- import k1 from '../assets/Blogs/Kathmandu1.jpg'
+ import k1 from '../assets/Blogs/kathmandu1.jpg'
  import k2 from '../assets/Blogs/kathmandu2.jpg'
 
 
