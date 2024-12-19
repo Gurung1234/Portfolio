@@ -4,9 +4,7 @@ import Body from "../Components/Body"
 import Contact from "../Components/Contact"
 import Gallery from "../Components/Gallery"
 import Projects from "../Components/Projects"
-import Skills from "../Components/skills"
-
-
+import Skills from "../Components/Skills"
 const Home = () => {
   return (
     <div>
