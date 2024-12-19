@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import html from '../assets/Skills/HTML1.jpg';
-import CSS from '../assets/Skills/CSS.svg';
-import Java from '../assets/Skills/java1.webp';
+import html from '../assets/Skills/html1.jpg';
+import CSS from '../assets/Skills/css.svg';
+import Java from '../assets/Skills/Java1.webp';
 import CodeTesting from '../assets/Skills/CodeTesting.png';
 import Git from '../assets/Skills/Git1.png';
 import JavaScript from '../assets/Skills/JavaScript.webp';
