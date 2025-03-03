@@ -1,4 +1,4 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 // Import images
 // import i1 from '../assets/Gallery/1.JPG';
@@ -91,7 +91,7 @@ const Gallery = () => {
     { id: 31, src: i31 },
     // { id: 32, src: i32 },
     { id: 33, src: i33 },
-    { id: 34, src: i34 },
+    // { id: 34, src: i34 },
     // { id: 35, src: i35 },
     // { id: 36, src: i36 },
     // { id: 37, src: i37 },
