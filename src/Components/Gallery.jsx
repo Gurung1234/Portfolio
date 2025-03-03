@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 
 // Import images
-import i1 from '../assets/Gallery/1.JPG';
-import i2 from '../assets/Gallery/2.JPEG';
+// // import i1 from '../assets/Gallery/1.JPG';
+// import i2 from '../assets/Gallery/2.JPEG';
 import i3 from '../assets/Gallery/3.jpg';
 import i4 from '../assets/Gallery/4.jpg';
-import i5 from '../assets/Gallery/5.JPEG';
-import i6 from '../assets/Gallery/6.JPG';
+// import i5 from '../assets/Gallery/5.JPEG';
+// import i6 from '../assets/Gallery/6.JPG';
 import i7 from '../assets/Gallery/7.jpg';
 import i8 from '../assets/Gallery/8.jpg';
-import i9 from '../assets/Gallery/9.JPEG';
+// import i9 from '../assets/Gallery/9.JPEG';
 import i10 from '../assets/Gallery/10.jpg';
-import i11 from '../assets/Gallery/11.JPG';
-import i12 from '../assets/Gallery/12.JPEG';
+// import i11 from '../assets/Gallery/11.JPG';
+// import i12 from '../assets/Gallery/12.JPEG';
 import i13 from '../assets/Gallery/13.jpg';
 // import i14 from '../assets/Gallery/14.jpg';
 import i15 from '../assets/Gallery/15.JPG';
-import i16 from '../assets/Gallery/16.JPG';
+// import i16 from '../assets/Gallery/16.JPG';
 import i17 from '../assets/Gallery/17.jpg';
 import i18 from '../assets/Gallery/18.jpg';
 import i19 from '../assets/Gallery/19.jpg';
@@ -28,17 +28,17 @@ import i24 from '../assets/Gallery/24.jpg';
 import i25 from '../assets/Gallery/25.jpg';
 import i26 from '../assets/Gallery/26.jpg';
 import i27 from '../assets/Gallery/27.JPG';
-import i28 from '../assets/Gallery/28.JPG';
+// import i28 from '../assets/Gallery/28.JPG';
 import i29 from '../assets/Gallery/29.jpg';
 import i30 from '../assets/Gallery/30.jpg';
 import i31 from '../assets/Gallery/31.jpg';
-import i32 from '../assets/Gallery/32.jpg';
+// import i32 from '../assets/Gallery/32.jpg';
 import i33 from '../assets/Gallery/33.jpg';
-import i34 from '../assets/Gallery/34.JPEG';
+// import i34 from '../assets/Gallery/34.JPEG';
 // import i35 from '../assets/Gallery/35.jpg';
-import i36 from '../assets/Gallery/36.JPG';
-import i37 from '../assets/Gallery/37.jpg';
-import i38 from '../assets/Gallery/38.jpg';
+// import i36 from '../assets/Gallery/36.JPG';
+// import i37 from '../assets/Gallery/37.jpg';
+// import i38 from '../assets/Gallery/38.jpg';
 import i39 from '../assets/Gallery/39.jpg';
 import i40 from '../assets/Gallery/40.jpg';
 import i41 from '../assets/Gallery/41.jpg';
@@ -58,22 +58,22 @@ const Gallery = () => {
 
   // Array of images
   const images = [
-    { id: 1, src: i1 },
-    { id: 2, src: i2 },
+    // { id: 1, src: i1 },
+    // { id: 2, src: i2 },
     { id: 3, src: i3 },
     { id: 4, src: i4 },
-    { id: 5, src: i5 },
-    { id: 6, src: i6 },
+    // { id: 5, src: i5 },
+    // { id: 6, src: i6 },
     { id: 7, src: i7 },
     { id: 8, src: i8 },
-    { id: 9, src: i9 },
+    // { id: 9, src: i9 },
     { id: 10, src: i10 },
-    { id: 11, src: i11 },
-    { id: 12, src: i12 },
+    // { id: 11, src: i11 },
+    // { id: 12, src: i12 },
     { id: 13, src: i13 },
     // { id: 14, src: i14 },
     { id: 15, src: i15 },
-    { id: 16, src: i16 },
+    // { id: 16, src: i16 },
     { id: 17, src: i17 },
     { id: 18, src: i18 },
     { id: 19, src: i19 },
@@ -85,17 +85,17 @@ const Gallery = () => {
     { id: 25, src: i25 },
     { id: 26, src: i26 },
     { id: 27, src: i27 },
-    { id: 28, src: i28 },
+    // { id: 28, src: i28 },
     { id: 29, src: i29 },
     { id: 30, src: i30 },
     { id: 31, src: i31 },
-    { id: 32, src: i32 },
+    // { id: 32, src: i32 },
     { id: 33, src: i33 },
-    { id: 34, src: i34 },
+    // { id: 34, src: i34 },
     // { id: 35, src: i35 },
-    { id: 36, src: i36 },
-    { id: 37, src: i37 },
-    { id: 38, src: i38 },
+    // { id: 36, src: i36 },
+    // { id: 37, src: i37 },
+    // { id: 38, src: i38 },
     { id: 39, src: i39 },
     { id: 40, src: i40 },
     { id: 41, src: i41 },
